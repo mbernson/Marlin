@@ -62,6 +62,8 @@
 #define E0_DIR_PIN                            13
 #define E0_ENABLE_PIN                X_ENABLE_PIN
 
+#define SERVO0_PIN                       44
+
 //
 // Temperature sensors - These could be any analog output not hidden by board
 //
