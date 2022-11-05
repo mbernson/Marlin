@@ -1648,7 +1648,7 @@
 #endif
 
 #if X_HOME_DIR || (HAS_Y_AXIS && Y_HOME_DIR) || (HAS_Z_AXIS && Z_HOME_DIR) || (HAS_I_AXIS && I_HOME_DIR) || (HAS_J_AXIS && J_HOME_DIR) || (HAS_K_AXIS && K_HOME_DIR)
-  #define HAS_ENDSTOPS 1
+  #define HAS_ENDSTOPS 0
   #define COORDINATE_OKAY(N,L,H) WITHIN(N,L,H)
 #else
   #define COORDINATE_OKAY(N,L,H) true
